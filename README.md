@@ -56,7 +56,7 @@
 
 8. To remove the red squiggly error lines, press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> again.
 9. Type and select `C/C++: Edit Configurations (JSON)`.
-10. This will open the `c_cpp_properties.json` file.
+10. Edit the `c_cpp_properties.json` file.
 
 ```json
 {
