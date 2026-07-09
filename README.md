@@ -3,7 +3,7 @@
 1. install [WinLibs UCRT 14.2.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-19.1.1-12.0.0-ucrt-r2/winlibs-i686-posix-dwarf-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2.7z)
 2. unzip WinLibs UCRT 14.2.0
 3. install [SFML 3.1.0](https://www.sfml-dev.org/files/SFML-3.1.0-windows-gcc-14.2.0-mingw-32-bit.zip)
-4. unzip GCC 14.2.0 MinGW
+4. unzip SFML 3.1.0
 5. Open VS Code and press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 6. Type and select `Tasks: Configure Task`
 7. Configure the `tasks.json` file by replacing its content with the following code. 
