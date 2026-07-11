@@ -1,9 +1,9 @@
-#General 
+# General 
 1. C/C++ -> General -> Additional Include Directories = path_to_SFML\include
 2. add in C/C++ -> Preprocessor -> Preprocessor Definitions = SFML_STATIC
 3. Linker -> General -> Additional Library Directories = path_to_SFML\lib
 
-#Debug
+# Debug
 4. add in Linker -> Input -> Additional Dependencies = harfbuzzd.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;
-#Release
+# Release
 4. add in Linker -> Input -> Additional Dependencies = harfbuzz.libsfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;
